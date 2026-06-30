@@ -1,3 +1,46 @@
+# ==========================================
+# 1. Deep Learning / AI Specific (CUSTOM)
+# ==========================================
+# Ignore large PyTorch / TensorFlow weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.weights
+
+# Ignore local datasets, raw videos, and test frames
+/data/
+/datasets/
+/inputs/
+/outputs/
+*.mp4
+*.avi
+*.mov
+
+# ==========================================
+# 2. Standard Python Template (GitHub Default)
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Crucial so you don't upload thousands of dependency files)
+venv/
+.venv/
+env/
+.env
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# 3. System Specific Junk
+# ==========================================
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
